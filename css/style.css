@@ -60,7 +60,7 @@ header{
 .banner-title{
     height: 370px;
     color: #FFFFFF;
-    text-align:center;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 144px;
     line-height: 175.54px;
@@ -129,4 +129,63 @@ header{
 
 .banner-menu__item:last-child{
     margin-right: 0;
+}
+
+.about-us__subtitle{
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 30px;
+    line-height: 43.53px;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.about-us__title{
+    font-family: "Raleway",sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.26px;
+    text-align: center;
+}
+
+.about-us__line-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-us__line{
+    width: 170px;
+    border: 2px solid #F38281;
+}
+
+.about-us__text{
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-us__img-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding-bottom: 106px;
+}
+
+.about-us__square{
+    width: 370px;
+    height: 338px;
+    background-color: #95E1D3;
+    z-index: 1;
+}
+
+.square__super-team{
+    width: 370px;
+    height: 338px;
+    border: 1px solid black;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    z-index: 2;
 }
