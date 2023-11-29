@@ -380,6 +380,10 @@ header {
   left: 770px;
 }
 
+.products{
+    padding-bottom: 114px;
+}
+
 .products-subtitle {
   height: 80px;
   font-family: "Kaushan Script", sans-serif;
@@ -486,4 +490,68 @@ header {
   border: 0px;
   background-color: #ffffff;
   cursor: pointer;
+}
+
+.carousel{
+    background-color: #F8F8F8;
+}
+
+.carousel-container{
+    height: 254px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel__left-btn{
+    width: 42px;
+    height: 42px;
+    margin-right: 40px;
+}
+
+.carousel__right-btn{
+    width: 42px;
+    height: 42px;
+    margin-left: 40px;
+}
+
+.carousel__left-btn button{
+    border: 0px;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.carousel__right-btn button{
+    border: 0px;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.carousel__text-container{
+    margin-left: 30px;
+}
+
+.carousel-text{
+    width: 770px;
+    height: 96px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 28.18px;
+    color: #A9AFB1;
+}
+
+.carousel-line{
+    width: 70px;
+    border: 4px;
+    color: #F38281;
+}
+
+.carousel-author{
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43.53px;
+    color: #000000;
 }
