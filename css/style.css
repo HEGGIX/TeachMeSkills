@@ -421,6 +421,7 @@ header {
   font-size: 18px;
   line-height: 21.13px;
   text-align: center;
+  margin: 0px 0px 42px 0px;
 }
 
 .products-option {
@@ -554,4 +555,113 @@ header {
     font-weight: 400;
     line-height: 43.53px;
     color: #000000;
+    margin-left: 156px;
+}
+
+.carousel-author::before{
+  content: "";
+  border: 4px solid #F38281;
+}
+
+.team-subtitle {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 30px;
+  line-height: 43.53px;
+  text-align: center;
+  padding-top: 42px;
+}
+
+.team-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42.26px;
+  text-align: center;
+}
+
+.team__line-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-line {
+  width: 170px;
+  border: 2px solid #f38281;
+  margin-top: 24px;
+}
+
+.team-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team__img-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.team-square__container{
+  position: relative;
+}
+
+.team-square__social-media{
+  width: 370px;
+  height: 424px;
+  background: linear-gradient( rgba(233, 130, 131, 0.9),rgba(237, 215, 137, 0.9));
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.social-media__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 207px;
+}
+
+.social-media__container img{
+  margin-left: 1px;
+}
+
+.team-employee{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 28.18px;
+  text-align: center;
+}
+
+.team-employee__profession{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 21.13px;
+  text-align: center;
+}
+
+.partners{
+  height: 211px;
+  background-color: #F8F8F8;
+  margin-top: 84px;
+}
+
+.partners-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.partners-img{
+  width: 127.12px;
+  height: 127.12px;
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
 }
