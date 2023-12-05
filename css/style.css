@@ -560,7 +560,9 @@ header {
 
 .carousel-author::before{
   content: "";
-  border: 4px solid #F38281;
+  display: block;
+  width: 70px;
+  border: 2px solid #F38281;
 }
 
 .team-subtitle {
@@ -710,42 +712,46 @@ header {
   margin-bottom: 84px;
 }
 
-.carousel-container{
+.comments{
+    margin-bottom: 84px;
+}
+
+.comments-container{
   height: 254px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.carousel__left-btn{
+.comments__left-btn{
   width: 42px;
   height: 42px;
   margin-right: 40px;
 }
 
-.carousel__right-btn{
+.comments__right-btn{
   width: 42px;
   height: 42px;
   margin-left: 40px;
 }
 
-.carousel__left-btn button{
+.comments__left-btn button{
   border: 0px;
-  background-color: #F8F8F8;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
-.carousel__right-btn button{
+.comments__right-btn button{
   border: 0px;
-  background-color: #F8F8F8;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
-.carousel__text-container{
+.comments__text-container{
   margin-left: 30px;
 }
 
-.carousel-text{
+.comments-text{
   width: 770px;
   height: 96px;
   font-family: "Raleway", sans-serif;
@@ -756,13 +762,13 @@ header {
   color: #A9AFB1;
 }
 
-.carousel-line{
+.comments-line{
   width: 70px;
   border: 4px;
   color: #F38281;
 }
 
-.carousel-author{
+.comments-author{
   font-family: "Kaushan Script", sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -771,7 +777,100 @@ header {
   margin-left: 156px;
 }
 
-.carousel-author::before{
+.comments-author::before{
 content: "";
-border: 4px solid #F38281;
+display: block;
+width: 70px;
+border: 2px solid #F38281;
+}
+
+.clients{
+    height: 923px;
+    background: url(/css/clients-background.png);
+    background-size: cover;
+}
+
+.clients-subtitle {
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 30px;
+    line-height: 43.53px;
+    text-align: center;
+    padding-top: 42px;
+}
+  
+.clients-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.26px;
+    text-align: center;
+}
+  
+.clients__line-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.clients-line {
+    width: 170px;
+    border: 2px solid #f38281;
+    margin-top: 24px;
+}
+
+.clients__review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-review{
+    min-width: 550px;
+    height: 285px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-review img{
+    margin-bottom: 135px;
+}
+
+.clients-review:nth-child(odd){
+    margin-right: 50px;
+}
+
+.clients-text{
+    width: 369px;
+    height: 150px;
+    margin-top: 32px;
+    font-family: "Raleway", sans-serif;
+    color:#2D3033;   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+}
+
+.clients-name{
+    font-family: "Raleway", sans-serif;
+    color:#2D3033;   
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+}
+
+.clinets-job{
+    font-family: "Raleway", sans-serif;
+    color:#2D3033;   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+}
+
+.clients__review-line{
+    display: block;
+    border: 2px solid #F38281;
+    width: 70px;
 }
