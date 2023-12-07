@@ -382,6 +382,7 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 59px;
 }
 
 .devices-img {
@@ -738,6 +739,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: stretch;
   margin-top: 50px;
   margin-bottom: 84px;
 }
@@ -1260,4 +1262,660 @@ header {
   font-size: 13px;
   font-weight: 700;
   line-height: 15.26px;
+}
+
+@media screen and (width < 1025px) {
+  .wrapper{
+    max-width: 998px;
+    margin: 0 auto;
+  }
+
+  header{
+    height: 68px;
+  }
+
+  .background{
+    height: 695px;
+  }
+
+  .banner-subtitle {
+    height: 54px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69.86px;
+    margin-top: 52px;
+    margin-bottom: 0;
+  }
+
+  .banner-title__container{
+    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-title {
+    height: 250px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.54px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .banner-line__container{
+    margin-top: 30px;
+  }
+
+  .banner-line{
+    width: 115px;
+  }
+
+  .banner-btn__container{
+    margin-top: 48px;
+  }
+
+  .banner-btn{
+    width: 318px;
+    height: 54px;
+    border: 4px solid  #ffffff;
+  }
+
+  .banner-menu{
+    margin-top: 78px;
+  }
+
+  .banner-menu__item{
+    height: 58px;
+    font-size: 14px;
+  }
+
+  .banner-menu__numbers{
+    font-size: 24px;
+  }
+
+  .about-us__subtitle {
+    font-size: 24px;
+    line-height: 34.82px;
+  }
+  
+  .about-us__title {
+    font-size: 24px;
+    line-height: 28.18px;
+  }
+
+  .about-us__text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.44px;
+  }
+
+  .about-us__img-container{
+    margin-top: 49px;
+    margin-bottom: 58px;
+    padding-bottom: 0;
+  }
+
+  .about-us__img img{
+    width: 320px;
+    height: 282px;
+  }
+
+  .about-us__square{
+    width: 320px;
+    height: 282px;
+  }
+
+  .square__super-team{
+    width: 320px;
+    height: 282px;
+    bottom: 7px;
+    right: 6px;
+  }
+
+  .super-team__text{
+    font-size: 18px;
+  }
+
+  .super-team__background{
+    width: 320px;
+    height: 282px;
+  }
+
+  .futures{
+    height: 168px;
+  }
+
+  .futures-item{
+    width: 198px;
+    height: 168px;
+  }
+
+  .futures-num{
+    font-size: 48px;
+    line-height: 56.35px;
+  }
+
+  .futures-text{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .services-subtitle{
+    font-size: 24px;
+    line-height: 34.82px;
+  }
+
+  .services-title{
+    font-size: 24px;
+    line-height: 28.82px;
+  }
+
+  .services-table__item{
+    width: 313px;
+    height: 117px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .services-table__item img{
+    width: 59px;
+    height: 59px;
+    margin-right: 0
+  }
+
+  .services-table__item:last-child{
+    margin-right: 0;
+  }
+
+  .services-item__title{
+    font-size: 18px;
+    line-height: 21.44px;
+  }
+
+  .services-item__text{
+    width: 228px;
+    height: 67px;
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .second-line{
+    margin-top: 58px;
+    margin-bottom: 58px;
+  }
+
+  .devices{
+    height: 588px;
+  }
+
+  .devices-img__wrapper{
+    margin-top: 39px;
+  }
+
+  .devices-subtitle{
+    height: 54px;
+    font-size: 24px;
+    line-height: 34.82px;
+    padding-top: 28px;
+  }
+
+  .devices-title{
+    height: 54px;
+    font-size: 24px;
+    line-height: 28.82px;
+  }
+
+  .devices-tablet{
+    height: 356px;
+  }
+
+  .devices-phone{
+    height: 279px;
+    width: 135px;
+    top: 143.25px;
+    left: 620px;
+  }
+
+  .products{
+    padding-bottom: 84px;
+  }
+
+  .products-subtitle {
+    height: 68px;
+    font-size: 24px;
+    line-height: 34.53px;
+    padding-top: 58px;
+  }
+  
+  .products-title {
+    height: 68px;
+    font-size: 24px;
+    line-height: 28.18px;
+    margin: 0;
+  }
+
+  .products-text{
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .products-cards__container{
+    margin-left: 25px;
+  }
+
+  .products-cards__text-container{
+    width: 486px;
+    height: 110px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+  }
+
+  .products-cards__text{
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .products-option__img img{
+    width: 486px;
+    height: 409px;
+  }
+
+  .products-cards__open{
+    width: 486px;
+    height: 216px;
+  }
+
+  .products-cards{
+    width: 486px;
+    height: 78px;
+  }
+
+  .products-cards__title-container{
+    width: 315px;
+    height: 78px;
+  }
+
+  .products-cards__title{
+    font-size: 18px;
+    line-height: 21.13px;
+  }
+
+  .carousel-container{
+    height: 172px;
+  }
+
+  .carousel__img-container img{
+    width: 115px;
+    height: 115px;
+  }
+
+  .carousel-text{
+    width:  655px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-top: 0px;
+  }
+
+  .carousel-author__container{
+    width: 570px;
+    height: 36px;
+    margin-top: 14px;
+  }
+
+  .carousel-author{
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 37px;
+  }
+
+  .team-subtitle {
+    font-size: 24px;
+    line-height: 34.53px;
+    padding-top: 0px;
+    margin-top: 52px;
+  }
+  
+  .team-title {
+    font-size: 24px;
+    line-height: 28.26px;
+  }
+
+  .team-text{
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .team__img{
+    width: 316px;
+    height: 427px;
+  }
+
+  .team__img img{
+    width: 316px;
+    height: 359px;
+  }
+
+  .team-square__social-media{
+    width: 316px;
+    height: 359px;
+    bottom: 7px;
+    right: 6px;
+  }
+
+  .social-media__container img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .kadin{
+    width: 316px;
+    height: 359px;
+  }
+
+  .team-employee{
+    font-size: 18px;
+    line-height: 21.13px;
+  }
+
+  .team-employee__profession{
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .partners{
+    margin-top: 58px;
+    height: 143px;
+  }
+
+  .partners-container{
+    height: 143px;
+    width: 991px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .partners-img{
+    margin-top: 0;
+    width: 86px;
+    height: 86px;
+  }
+
+  .partners-img img{
+    width: 86px;
+    height: 86px;
+  }
+
+  .works-subtitle {
+    font-size: 24px;
+    line-height: 34.53px;
+    margin-top: 57px;
+  }
+  
+  .works-title {
+    font-size: 24px;
+    line-height: 28.26px;
+  }
+  
+  .works-text {
+    font-size: 14px;
+    line-height: 16.4px;
+    margin-top: 40px;
+  }
+
+  .works__img-container{
+    margin-bottom: 58px;
+  }
+
+  .comments{
+    margin-bottom: 58px;
+  }
+
+.comments-container{
+  height: 172px;
+}
+
+.comments__left-btn{
+  width: 28px;
+  height: 28px;
+  margin-right: 0;
+}
+
+.comments__right-btn{
+  width: 28px;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 32px;
+}
+
+.comments__img-container img{
+  width: 115px;
+  height: 115px;
+}
+
+.comments__text-container{
+  margin-left: 0px;
+}
+
+.comments-text{
+  width: 655px;
+  height: 66px;
+  font-size: 18px;
+  line-height: 21.18px;
+  margin-bottom: 0;
+}
+
+.comments-author{
+  font-size: 24px;
+  line-height: 34.8px;
+  margin-left: 37px;
+}
+
+.clients{
+  height: 626px;
+}
+
+.clients-subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 28px;
+}
+
+.clients-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.clients-review{
+  height: 194px;
+  min-width: 0px;
+}
+
+.clients-review img{
+  width: 88px;
+  height: 88px;
+}
+
+.clients-text__conatiner{
+  margin-left: 49px;
+}
+
+.clients-name{
+  font-size: 18px;
+  line-height: 21.13px;
+  margin-bottom: 0;
+}
+
+.clinets-job{
+  font-size: 14px;
+  line-height: 16.4px;
+  margin-top: 0;
+  margin-bottom: 21px;
+}
+
+.clients-text{
+  width: 316px;
+  font-size: 14px;
+  line-height: 16.5px;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+
+.stories-subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 58px;
+}
+
+.stories-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.stories__card-container{
+  margin-bottom: 58px;
+}
+
+.stories__img-container{
+  margin-bottom: 0;
+}
+
+.stories__img-container img{
+  width: 316px;
+  height: 214px;
+}
+
+.stories__img-date{
+  width: 67.8px;
+  height: 67.8px;
+}
+
+.stories-date{
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.stories-month{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+.stories__text-title{
+  font-size: 18px;
+  line-height: 21.13px;
+  margin-top: 0;
+}
+
+.stories-text{
+  width: 317px;
+  font-size: 14px;
+  line-height: 16.4px;
+  margin-bottom: 0;
+}
+
+.map{
+  height: 157px;
+}
+
+.map-container{
+  height: 157px;
+}
+
+.map-title{
+  font-size: 24px;
+  line-height: 28.18px;
+}
+
+.mogo-title{
+  font-size: 30px;
+  height: 70px;
+}
+
+.mogo-text{
+  height: 100px;
+  width: 317px;
+  font-size: 14px;
+  line-height: 16.44px;
+  margin-bottom: 0;
+}
+
+.mogo__num-followers{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.mogo-form{
+  margin-top: 31px;
+  width: 317px;
+}
+
+.mogo__follow-us{
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.mogo__social-media{
+  width: 317px;
+}
+
+.social-media__item{
+  width: 16.24px;
+  height: 16.24px;
+}
+
+.mogo-inp{
+  height: 33px;
+}
+
+.mogo-inp::placeholder{
+  font-size: 14px;
+  line-height: 16.4px;
+}
+
+.mogo-btn{
+  height: 37px;
+  font-size: 14px;
+  line-height: 16.4px;
+}
+
+.blogs-title{
+  font-size: 18px;
+  line-height: 21.13px;
+  height: 70px;
+}
+
+.blogs-item{
+  margin-bottom: 13.54px;
+}
+
+.blogs-img img{
+  width: 115px;
+  height: 71px;
+}
+
+.blogs-text{
+  font-size: 14px;
+  line-height: 16.4px;
+  width: 267px;
+}
+
+.inst-title{
+  height: 70px;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.inst-col img{
+  width: 78px;
+  height: 76px;
+}
+
+.inst-footer{
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
 }
