@@ -29,6 +29,11 @@
               </li>
             </ul>
           </nav>
+          <div class="burger-menu">
+            <span class="burger-item"></span>
+            <span class="burger-item"></span>
+            <span class="burger-item"></span>
+          </div>
         </div>
       </header>
       <section class="welcome">
@@ -47,16 +52,16 @@
           </div>
           <div class="banner-menu">
             <div class="banner-menu__item">
-              <span class="banner-menu__numbers">01</span> intro
+              <span class="banner-menu__numbers">01</span> <span class="banner-menu__text">intro</span>
             </div>
             <div class="banner-menu__item">
-              <span class="banner-menu__numbers">02</span> worck
+              <span class="banner-menu__numbers">02</span> <span class="banner-menu__text">worck</span>
             </div>
             <div class="banner-menu__item">
-              <span class="banner-menu__numbers">03</span> about
+              <span class="banner-menu__numbers">03</span> <span class="banner-menu__text">about</span>
             </div>
             <div class="banner-menu__item">
-              <span class="banner-menu__numbers">04</span> contacts
+              <span class="banner-menu__numbers">04</span> <span class="banner-menu__text">contacts</span> 
             </div>
           </div>
         </div>
@@ -131,7 +136,7 @@
           <div class="services-table">
             <div class="services-table__item">
               <img src="/css/icons-phone .png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">PHOTOGRAPHY</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -140,7 +145,7 @@
             </div>
             <div class="services-table__item">
               <img src="/css/icons-apps.png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">WEB DESIGN</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -149,7 +154,7 @@
             </div>
             <div class="services-table__item">
               <img src="/css/icons-sword.png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">CREATIVITY</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -158,7 +163,7 @@
             </div>
             <div class="services-table__item seo-icon second-line">
               <img src="/css/icons-map.png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">SEO</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -167,7 +172,7 @@
             </div>
             <div class="services-table__item second-line">
               <img src="/css/icons-picture.png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">CSS/HTML</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -176,7 +181,7 @@
             </div>
             <div class="services-table__item second-line">
               <img src="/css/icons-target.png" alt="#" />
-              <div>
+              <div class="services-table__item-text">
                 <h3 class="services-item__title">DIGITAL</h3>
                 <p class="services-item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -193,7 +198,6 @@
           <div class="devices-line__container">
             <span class="devices-line"></span>
           </div>
-  
             <div class="devices-img__wrapper">
               <img
                 class="devices-img devices-tablet"
@@ -206,7 +210,6 @@
                 alt="#"
               />
             </div>
-          
         </div>
       </section>
       <section class="products">
@@ -296,6 +299,13 @@
                 <div class="carousel-author__container">
                   <span class="carousel-line"></span>
                   <h3 class="carousel-author">Jon Doe</h3>
+                </div>
+                <div class="carousel-circle__container">
+                  <span class="carousel-circle"></span>
+                  <span class="carousel-circle"></span>
+                  <span class="carousel-circle"></span>
+                  <span class="carousel-circle"></span>
+                  <span class="carousel-circle"></span>
                 </div>
               </div>
             <div class="carousel__right-btn">
@@ -435,6 +445,13 @@
                   <span class="comments-line"></span>
                   <h3 class="comments-author">James Phillips</h3>
                 </div>
+              </div>
+              <div class="carousel-circle__container">
+                <span class="carousel-circle"></span>
+                <span class="carousel-circle"></span>
+                <span class="carousel-circle"></span>
+                <span class="carousel-circle"></span>
+                <span class="carousel-circle"></span>
               </div>
             <div class="comments__right-btn">
               <button><img src="/css/carousel-right-btn.png" alt="#" /></button>
@@ -628,10 +645,10 @@
                   <img class="social-media__item" src="/css/footer-tikTok.png" alt="#">
                 </div>
               </div>
-              <div class="mogo-form">
+              <form class="mogo-form">
                 <input class="mogo-inp" type="text" placeholder="Your Email">
                 <button class="mogo-btn">SUBSCRIBE</button>
-              </div>
+              </form>
             </div>
             <div class="blogs-container">
               <h2 class="blogs-title">BLOGS</h2>
